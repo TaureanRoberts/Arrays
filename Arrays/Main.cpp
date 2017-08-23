@@ -1,5 +1,8 @@
 #include <iostream>
 
+
+
+
 int main()
 {
 	//1. Declare an array for each of the following(size of array does not matter unless
@@ -44,7 +47,7 @@ int main()
 
 
 	//4. Using the array created in problem 3 print the 5th index.
-	
+
 	int myNumero[10] = { 1,2,3,4,5,6,7,8,9,10 };
 
 	for (int i = 1; i <= 5; ++i)
@@ -58,11 +61,15 @@ int main()
 
 	//5. Using a loop, populate an array of size 10 with the values 10 - 1.
 
-	int countingDown[10] = { 10,9,8,7,6,5,4,3,2,1};
+	int countingDown[10] = { 10,9,8,7,6,5,4,3,2,1 };
 
-	for (int i = 10; i >= 1; i-=1)
+	for (int i = 10; i >= 1; i -= 1)
 	{
-	std::cout << i << std::endl;
+		std::cout << i << std::endl;
+
+
+
+
 	}
 
 
@@ -74,17 +81,22 @@ int main()
 	//number into the array. Display the largest and smallest numbers 
 	//to the console.
 
-	int numArray;
-	std::cout << "Input five random numbers. \n";
-	std::cin >> numArray;
-		switch (numArray);
+
+	int myArray[5] = {};
+
+	for (int i = 0; i+0;++i )
 	{
 
 
 
 
-		}
 
+
+
+
+
+
+	}
 
 
 	system("pause");
@@ -96,14 +108,12 @@ int main()
 
 	int grid[3][3];
 
-	for (int i = 0; i < 3; ++i)
+	for (int i = 0; i <=3; i++)
 	{
-		int g
-		std::cout << grid[0*3+2];
-		std::cout << grid[1][2];
-		std::cout << grid[2][1];
-	
-
+		if (grid [0])
+		std::cout << grid[0] << std::endl;	
+		std::cout << grid[1] << std::endl;
+		std::cout << grid[2] << std::endl;
 
 	}
 
